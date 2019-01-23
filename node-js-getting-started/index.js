@@ -1,11 +1,11 @@
- var express = require('express'); 
+var express = require('express'); 
 var app = express();
 const PORT = process.env.PORT || 8080;
 
 var buecher = [
-{autor: "Winston Schilling",titel: "Sakrileg",    Beschreibung: "Das beste Buch überhaupt!" },
-{autor: "Paul Beier",titel: "HTML-Kochbuch",    Beschreibung: "Das beste Buch zum kochen mit html überhaupt!"},
-{autor: "Max Schwerdtner", titel: "Java-Kochbuch",    Beschreibung: "Das beste Buch zum kochen mit java überhaupt!"}
+{autor: "Max Schwerdtner",titel: "PHP-Kochbuch",    Beschreibung: "Das beste Buch zum kochen mit php überhaupt!" },
+{autor: "Marvin Spath",titel: "HTML-Kochbuch",    Beschreibung: "Das beste Buch zum kochen mit html überhaupt!"},
+{autor: "Winston Schilling", titel: "Java-Kochbuch",    Beschreibung: "Das beste Buch zum kochen mit java überhaupt!"}
 ];
 
 app.set("viewengine", "ejs");
